@@ -135,5 +135,13 @@
 			<type>1</type>
 			<location>PARENT-2-PROJECT_LOC/Src/system_stm32f4xx.c</location>
 		</link>
-  </linkedResources>
+  <link>
+      <name>Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_i2c.c</name>
+      <type>1</type>
+      <location>PARENT-2-PROJECT_LOC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c</location>
+    </link><link>
+      <name>Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_i2c_ex.c</name>
+      <type>1</type>
+      <location>PARENT-2-PROJECT_LOC/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c</location>
+    </link></linkedResources>
 </projectDescription>

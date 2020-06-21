@@ -3,30 +3,18 @@
 ################################################################################
 
 # Add inputs and outputs from these tool invocations to the build variables 
-S_SRCS += \
-C:/Users/adria/OneDrive/Pulpit/morseTranslator/SW4STM32/startup_stm32f401xe.s 
-
 C_SRCS += \
-C:/Users/adria/OneDrive/Pulpit/morseTranslator/SW4STM32/syscalls.c 
+../i2c-lcd.c 
 
 OBJS += \
-./Application/SW4STM32/startup_stm32f401xe.o \
-./Application/SW4STM32/syscalls.o 
+./i2c-lcd.o 
 
 C_DEPS += \
-./Application/SW4STM32/syscalls.d 
+./i2c-lcd.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
-Application/SW4STM32/startup_stm32f401xe.o: C:/Users/adria/OneDrive/Pulpit/morseTranslator/SW4STM32/startup_stm32f401xe.s
-	@echo 'Building file: $<'
-	@echo 'Invoking: MCU GCC Assembler'
-	@echo %cd%
-	arm-none-eabi-as -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -g -o "$@" "$<"
-	@echo 'Finished building: $<'
-	@echo ' '
-
-Application/SW4STM32/syscalls.o: C:/Users/adria/OneDrive/Pulpit/morseTranslator/SW4STM32/syscalls.c
+%.o: ../%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%

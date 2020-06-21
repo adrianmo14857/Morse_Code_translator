@@ -1,5 +1,4 @@
-Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o: \
- C:/Users/adria/OneDrive/Pulpit/morseTranslator/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c \
+i2c-lcd.o: ../i2c-lcd.c ../i2c-lcd.h \
  C:/Users/adria/OneDrive/Pulpit/morseTranslator/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  C:/Users/adria/OneDrive/Pulpit/morseTranslator/Inc/stm32f4xx_hal_conf.h \
  C:/Users/adria/OneDrive/Pulpit/morseTranslator/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -30,6 +29,8 @@ Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o: \
  C:/Users/adria/OneDrive/Pulpit/morseTranslator/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  C:/Users/adria/OneDrive/Pulpit/morseTranslator/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  C:/Users/adria/OneDrive/Pulpit/morseTranslator/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+
+../i2c-lcd.h:
 
 C:/Users/adria/OneDrive/Pulpit/morseTranslator/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 
